@@ -2,13 +2,13 @@ from tkinter import *
 import pyqrcode
 
 win = Tk()
-win.title("Search Bar")
+win.title("QR Code Generator")
 
 def search():
     link = entry.get()
     pyqrcode.create(link).svg('qrcode.svg',scale=10)
 
-label1 = Label(win,text="Enter URL here:",font=("arial",10,"bold"))
+label1 = Label(win,text="Link:",font=("arial",10,"bold"))
 label1.grid(row=0,column=0)
 
 entry = Entry(win,width=30)
