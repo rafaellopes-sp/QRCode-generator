@@ -14,7 +14,7 @@ $ git clone https://github.com/rafaellopes-sp/QRCode-generator.git
 
 # Acesse a pasta do projeto no terminal/cmd
 $ cd /
-$ cd calculo_combustivel
+$ cd QRCode-generator
 
 # Instale as dependências necessarias
 $ pip install tkinter
